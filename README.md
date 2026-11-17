@@ -1,3 +1,4 @@
+
 # Diabetes Risk Prediction System Using Four Machine Learning Algorithms
 
 An MCA educational project using Flask, Pandas and Scikit-learn. The system trains and compares Logistic Regression, Decision Tree, Random Forest and Support Vector Machine (SVM) on the Pima Indians Diabetes dataset. It shows their test metrics in a comparison dashboard and displays each model's prediction for a submitted form.
@@ -71,3 +72,4 @@ Diabetes_Risk_Prediction/
 `train_model.py` creates `model/models.pkl` and `model/metrics.json`. Run it again whenever you change the dataset or training settings. The Accuracy page reads the newly calculated values from `metrics.json`; no sample accuracy values are hardcoded.
 
 The accuracy graph uses Chart.js from a CDN, so an internet connection is needed when loading that page unless Chart.js is downloaded and served locally.
+
